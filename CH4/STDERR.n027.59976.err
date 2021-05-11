@@ -1,0 +1,32 @@
+ M_divide: can not subdivide           20 nodes by           8
+ M_divide: can not subdivide           20 nodes by           8
+ M_divide: can not subdivide           20 nodes by           8
+ M_divide: can not subdivide           20 nodes by           8
+ M_divide: can not subdivide           20 nodes by           8
+ M_divide: can not subdivide           20 nodes by           8
+ M_divide: can not subdivide           20 nodes by           8
+ M_divide: can not subdivide           20 nodes by           8
+ M_divide: can not subdivide           20 nodes by           8
+ M_divide: can not subdivide           20 nodes by           8
+ M_divide: can not subdivide           20 nodes by           8
+ M_divide: can not subdivide           20 nodes by           8
+ M_divide: can not subdivide           20 nodes by           8
+ M_divide: can not subdivide           20 nodes by           8
+ M_divide: can not subdivide           20 nodes by           8
+ M_divide: can not subdivide           20 nodes by           8
+ M_divide: can not subdivide           20 nodes by           8
+ M_divide: can not subdivide           20 nodes by           8
+ M_divide: can not subdivide           20 nodes by           8
+ M_divide: can not subdivide           20 nodes by           8
+Fatal error in MPI_Topo_test: Invalid communicator, error stack:
+MPI_Topo_test(137): MPI_Topo_test(MPI_COMM_NULL, topo_type=0x7ffd85d7d8d0) failed
+MPI_Topo_test(83).: Null communicator
+Fatal error in MPI_Topo_test: Invalid communicator, error stack:
+MPI_Topo_test(137): MPI_Topo_test(MPI_COMM_NULL, topo_type=0x7ffdf4a79bd0) failed
+MPI_Topo_test(83).: Null communicator
+Fatal error in MPI_Topo_test: Invalid communicator, error stack:
+MPI_Topo_test(137): MPI_Topo_test(MPI_COMM_NULL, topo_type=0x7fff4b458250) failed
+MPI_Topo_test(83).: Null communicator
+Fatal error in MPI_Topo_test: Invalid communicator, error stack:
+MPI_Topo_test(137): MPI_Topo_test(MPI_COMM_NULL, topo_type=0x7ffd31d209d0) failed
+MPI_Topo_test(83).: Null communicator
