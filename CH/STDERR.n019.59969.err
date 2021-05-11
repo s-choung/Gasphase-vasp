@@ -1,0 +1,29 @@
+ M_divide: can not subdivide           20 nodes by           8
+ M_divide: can not subdivide           20 nodes by           8
+ M_divide: can not subdivide           20 nodes by           8
+ M_divide: can not subdivide           20 nodes by           8
+ M_divide: can not subdivide           20 nodes by           8
+ M_divide: can not subdivide           20 nodes by           8
+ M_divide: can not subdivide           20 nodes by           8
+ M_divide: can not subdivide           20 nodes by           8
+ M_divide: can not subdivide           20 nodes by           8
+ M_divide: can not subdivide           20 nodes by           8
+ M_divide: can not subdivide           20 nodes by           8
+ M_divide: can not subdivide           20 nodes by           8
+ M_divide: can not subdivide           20 nodes by           8
+ M_divide: can not subdivide           20 nodes by           8
+ M_divide: can not subdivide           20 nodes by           8
+ M_divide: can not subdivide           20 nodes by           8
+ M_divide: can not subdivide           20 nodes by           8
+ M_divide: can not subdivide           20 nodes by           8
+ M_divide: can not subdivide           20 nodes by           8
+ M_divide: can not subdivide           20 nodes by           8
+Fatal error in MPI_Topo_test: Invalid communicator, error stack:
+MPI_Topo_test(137): MPI_Topo_test(MPI_COMM_NULL, topo_type=0x7ffe19411b50) failed
+MPI_Topo_test(83).: Null communicator
+Fatal error in MPI_Topo_test: Invalid communicator, error stack:
+MPI_Topo_test(137): MPI_Topo_test(MPI_COMM_NULL, topo_type=0x7ffdc89e4f50) failed
+MPI_Topo_test(83).: Null communicator
+Fatal error in MPI_Topo_test: Invalid communicator, error stack:
+MPI_Topo_test(137): MPI_Topo_test(MPI_COMM_NULL, topo_type=0x7ffe4661aed0) failed
+MPI_Topo_test(83).: Null communicator

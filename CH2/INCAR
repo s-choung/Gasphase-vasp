@@ -1,0 +1,77 @@
+=========================================================================
+Startup options:
+=========================================================================
+ISTART = 0        ! 0: start from scratch;
+                  ! 1: restart with constant ecut;
+                  ! 2: restart with constant basis << default
+                  ! 3: full restart including charge prediction
+ICHARG = 2        ! 0: from initial wavefunctions; 1: CHGCAR; 2: atomich charge densities
+
+=========================================================================
+Spin/Magnetism:
+=========================================================================
+ISPIN   = 2       ! spin polarized calculation? (1 no, 2 yes)
+#MAGMOM  =
+#LDIPOL  = .TRUE.
+#IDIPOL  = 3
+
+=========================================================================
+Electronic Relaxation:
+=========================================================================
+#NBANDS = 360
+ENCUT  = 400      ! planewave cutoff (eV); ENMAX*1.3
+#PREC   = High     ! recommended value, (accurate for volume optimization, phonons, ...)
+EDIFF  = 1E-04    ! convergence criterion for wave-functions(->05->06)
+GGA    = PE       ! PBE GGA
+#NELM   = 200
+ISMEAR = 0        ! -5: tetra+Bloechl; -4: tetra;...; -1 Fermi;
+                  ! 0 Gaussian (Insulators!) 1..N Methfessel-Paxton (metals)
+SIGMA  = 0.05     ! smearing parameter -> check that TS is smaller than 1meV per atom
+                  ! metals: 0.1; insulators: 0.05
+#ALGO   = FAST     ! 5x Davidson, then DIIS
+#LREAL  = Auto     ! g-space 
+#IVDW   = 12
+
+=========================================================================
+Ionic Relaxation:
+=========================================================================
+ISYM   = 0        ! 0: no symmetry; 1: symmetry; 2: memory conserving symmetry (4 PAW)
+NSW    = 800      ! max NSW ionic steps
+IBRION = 2        !-1: ions not moved; 0: MD; 1: quasi-Newton;
+                  ! 2: CG; 3: quickmin; 5: Hessian(vibrational frequency);
+#POTIM   = 0.015
+#ADDGRID = .TRUE.
+ISIF   = 2        ! all relax ions, additionally: 1: pressure; 2: stress;
+                  !   3: cell; ...
+EDIFFG = -.03     ! neg. value: force cutoff for nuclei; pos. value: free energy change
+
+=========================================================================
+IO options:
+=========================================================================
+##NPAR = 8
+
+#LDAU     = .TRUE.
+#LDAUTYPE = 2
+#LDAUL    = 2
+#LDAUU    = 5.5
+#LDAUJ    = 1
+#LASPH    = .TRUE. ! d and f atoms
+#LMAXMIX  = 4      ! d-element: 4; f-element: 6
+#AMIX     = 0.2
+#AMIN     = 0.01
+#BMIX     = 0.0001
+#AMIX_MAG = 0.8
+#BMIX_MAG = 0.0001
+
+#LSOL = .TRUE.
+LWAVE = .FALSE.
+LCHARG = .FALSE.
+#LAECHG = .FALSE.
+
+--- TIM ADDITION ---
+--- R W I G S = 1.0 1.0 1.0 ! PRINTING APPROXIMATE ATOMIC RADIUS GUESS OF LOCAL E- DENSITY?
+                  ! RWIGS tag in units of Angstroms
+#LORBIT = 11       ! 0 RWIGS line required DOSCAR and PROCAR file
+#EMIN = -10
+#EMAX = 15
+#NEDOS = 3000
