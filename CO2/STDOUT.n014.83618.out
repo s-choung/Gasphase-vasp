@@ -1,0 +1,107 @@
+[0] MPI startup(): Multi-threaded optimized library
+[16] MPI startup(): shm and tmi data transfer modes
+[14] MPI startup(): shm and tmi data transfer modes
+[15] MPI startup(): shm and tmi data transfer modes
+[17] MPI startup(): shm and tmi data transfer modes
+[1] MPI startup(): shm and tmi data transfer modes
+[7] MPI startup(): shm and tmi data transfer modes
+[13] MPI startup(): shm and tmi data transfer modes
+[18] MPI startup(): shm and tmi data transfer modes
+[4] MPI startup(): shm and tmi data transfer modes
+[12] MPI startup(): shm and tmi data transfer modes
+[3] MPI startup(): shm and tmi data transfer modes
+[6] MPI startup(): shm and tmi data transfer modes
+[8] MPI startup(): shm and tmi data transfer modes
+[9] MPI startup(): shm and tmi data transfer modes
+[11] MPI startup(): shm and tmi data transfer modes
+[0] MPI startup(): shm and tmi data transfer modes
+[2] MPI startup(): shm and tmi data transfer modes
+[5] MPI startup(): shm and tmi data transfer modes
+[10] MPI startup(): shm and tmi data transfer modes
+[19] MPI startup(): shm and tmi data transfer modes
+[0] MPI startup(): Rank    Pid      Node name  Pin cpu
+[0] MPI startup(): 0       16816    n014.hpc   0
+[0] MPI startup(): 1       16817    n014.hpc   1
+[0] MPI startup(): 2       16818    n014.hpc   2
+[0] MPI startup(): 3       16819    n014.hpc   3
+[0] MPI startup(): 4       16820    n014.hpc   4
+[0] MPI startup(): 5       16821    n014.hpc   5
+[0] MPI startup(): 6       16822    n014.hpc   6
+[0] MPI startup(): 7       16823    n014.hpc   7
+[0] MPI startup(): 8       16824    n014.hpc   8
+[0] MPI startup(): 9       16825    n014.hpc   9
+[0] MPI startup(): 10      16826    n014.hpc   10
+[0] MPI startup(): 11      16827    n014.hpc   11
+[0] MPI startup(): 12      16828    n014.hpc   12
+[0] MPI startup(): 13      16829    n014.hpc   13
+[0] MPI startup(): 14      16830    n014.hpc   14
+[0] MPI startup(): 15      16831    n014.hpc   15
+[0] MPI startup(): 16      16832    n014.hpc   16
+[0] MPI startup(): 17      16833    n014.hpc   17
+[0] MPI startup(): 18      16834    n014.hpc   18
+[0] MPI startup(): 19      16835    n014.hpc   19
+[0] MPI startup(): I_MPI_DEBUG=5
+[0] MPI startup(): I_MPI_FABRICS=shm:tmi
+[0] MPI startup(): I_MPI_HYDRA_UUID=9d410000-473d-eb1c-3dc0-05006418c0a8
+[0] MPI startup(): I_MPI_INFO_NUMA_NODE_MAP=qib0:0
+[0] MPI startup(): I_MPI_INFO_NUMA_NODE_NUM=2
+[0] MPI startup(): I_MPI_PIN_MAPPING=20:0 0,1 1,2 2,3 3,4 4,5 5,6 6,7 7,8 8,9 9,10 10,11 11,12 12,13 13,14 14,15 15,16 16,17 17,18 18,19 19
+[0] MPI startup(): I_MPI_TMI_PROVIDER=psm
+ running on   20 total cores
+ distrk:  each k-point on   20 cores,    1 groups
+ distr:  one band on    5 cores,    4 groups
+ using from now: INCAR     
+ vasp.5.3.5 31Mar14 (build Oct 26 2016 13:29:44) complex                        
+  
+ POSCAR found :  2 types and       3 ions
+ scaLAPACK will be used
+ LDA part: xc-table for Pade appr. of Perdew
+ POSCAR found :  2 types and       3 ions
+ POSCAR, INCAR and KPOINTS ok, starting setup
+ FFT: planning ...
+ WAVECAR not read
+ entering main loop
+       N       E                     dE             d eps       ncg     rms          rms(c)
+DAV:   1     0.104458780944E+03    0.10446E+03   -0.34375E+03    96   0.466E+02
+DAV:   2     0.105269708753E+02   -0.93932E+02   -0.88115E+02   120   0.116E+02
+DAV:   3    -0.206597591710E+02   -0.31187E+02   -0.28978E+02   104   0.550E+01
+DAV:   4    -0.234661240406E+02   -0.28064E+01   -0.28094E+01    72   0.169E+01
+DAV:   5    -0.234937740646E+02   -0.27650E-01   -0.27543E-01    80   0.186E+00    0.139E+01
+RMM:   6    -0.141210807457E+02    0.93727E+01   -0.11865E+01    64   0.186E+01    0.486E+00
+RMM:   7    -0.196916227546E+02   -0.55705E+01   -0.32235E+00    64   0.749E+00    0.298E+00
+RMM:   8    -0.214216783062E+02   -0.17301E+01   -0.70075E-01    64   0.412E+00    0.159E+00
+RMM:   9    -0.221991003195E+02   -0.77742E+00   -0.38415E-01    64   0.244E+00    0.672E-01
+RMM:  10    -0.222590025127E+02   -0.59902E-01   -0.29867E-02    64   0.842E-01    0.402E-01
+RMM:  11    -0.225151834381E+02   -0.25618E+00   -0.23521E-02    64   0.681E-01    0.174E-01
+RMM:  12    -0.226433582946E+02   -0.12817E+00   -0.47087E-03    62   0.303E-01    0.105E-01
+RMM:  13    -0.228168470976E+02   -0.17349E+00   -0.45460E-03    60   0.262E-01    0.786E-02
+RMM:  14    -0.228905369871E+02   -0.73690E-01   -0.18259E-03    54   0.164E-01    0.677E-02
+RMM:  15    -0.228982937800E+02   -0.77568E-02   -0.28419E-04    50   0.736E-02    0.455E-02
+RMM:  16    -0.229272350626E+02   -0.28941E-01   -0.81232E-04    54   0.109E-01    0.372E-02
+RMM:  17    -0.229304436153E+02   -0.32086E-02   -0.30032E-04    50   0.775E-02    0.258E-02
+RMM:  18    -0.229308188949E+02   -0.37528E-03   -0.22393E-04    50   0.618E-02    0.124E-02
+RMM:  19    -0.229308968923E+02   -0.77997E-04   -0.43622E-05    46   0.337E-02
+   1 F= -.22930897E+02 E0= -.22939265E+02  d E =-.229309E+02  mag=     0.1260
+ curvature:   0.00 expect dE= 0.000E+00 dE for cont linesearch  0.000E+00
+ trial: gam= 0.00000 g(F)=  0.426E-02 g(S)=  0.550E-02 ort = 0.000E+00 (trialstep = 0.100E+01)
+ search vector abs. value=  0.976E-02
+ bond charge predicted
+       N       E                     dE             d eps       ncg     rms          rms(c)
+DAV:   1    -0.228986709290E+02    0.32148E-01   -0.14550E+00    96   0.997E+00    0.734E-01
+RMM:   2    -0.228964435817E+02    0.22273E-02   -0.41464E-02    64   0.143E+00    0.387E-01
+RMM:   3    -0.228951780747E+02    0.12655E-02   -0.13404E-03    62   0.252E-01    0.163E-01
+RMM:   4    -0.228950264061E+02    0.15167E-03   -0.44763E-04    53   0.155E-01
+   2 F= -.22895026E+02 E0= -.22903429E+02  d E =0.358705E-01  mag=     0.1300
+ trial-energy change:    0.035870  1 .order    0.037447   -0.009762    0.084657
+ step:   0.1135(harm=  0.1034)  dis= 0.00115  next Energy=   -22.931453 (dE=-0.556E-03)
+ bond charge predicted
+       N       E                     dE             d eps       ncg     rms          rms(c)
+DAV:   1    -0.229359561783E+02   -0.40778E-01   -0.11467E+00    64   0.880E+00    0.654E-01
+RMM:   2    -0.229336682321E+02    0.22879E-02   -0.31939E-02    64   0.124E+00    0.340E-01
+RMM:   3    -0.229327914063E+02    0.87683E-03   -0.10273E-03    60   0.217E-01    0.144E-01
+RMM:   4    -0.229326571752E+02    0.13423E-03   -0.34444E-04    51   0.134E-01
+   3 F= -.22932657E+02 E0= -.22941048E+02  d E =-.176028E-02  mag=     0.1305
+ curvature:  -0.05 expect dE=-0.255E-05 dE for cont linesearch -0.435E-06
+ trial: gam= 0.03441 g(F)=  0.287E-04 g(S)=  0.206E-04 ort =-0.287E-03 (trialstep = 0.823E+00)
+ search vector abs. value=  0.412E-04
+ reached required accuracy - stopping structural energy minimisation
